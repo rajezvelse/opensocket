@@ -1,0 +1,6 @@
+.idea
+**/**/__pycache__
+references
+webconsole/ui/templates/theme.html
+webconsole/migrations/versions/*
+Dockerfile

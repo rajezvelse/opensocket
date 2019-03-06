@@ -1,0 +1,111 @@
+/***********************************/
+
+/**      SLIM SCROLLBAR           **/
+
+/***********************************/
+
+
+/* Let's get this party started */
+
+.slim-scroll ::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+/* Track */
+
+.slim-scroll ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.slim-scroll ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.slim-scroll ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+body[themebg-pattern=theme1] {
+    background-color: unset;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) 240px, #f2f7fb 0%);
+}
+
+.header-navbar .navbar-wrapper .navbar-container .nav-left li, .header-navbar .navbar-wrapper .navbar-container .nav-right li {
+    line-height: 3.5;
+}
+
+.header-navbar .navbar-wrapper .navbar-logo {
+    height: 55px;
+}
+
+.header-navbar {
+    min-height: 50px;
+}
+
+.header-navbar .navbar-wrapper .navbar-container .header-notification .show-notification, .header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification {
+    padding: 0;
+}
+
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification {
+    width: 13em;
+}
+
+.navbar.header-navbar.pcoded-header {
+    position: fixed;
+    background-color: #fff;
+}
+
+.navbar-logo img {
+    height: 28px;
+}
+
+.pcoded[theme-layout=vertical][vertical-placement=left][vertical-nav-type=expanded][vertical-effect=shrink] .pcoded-content {
+    margin-left: 0;
+}
+
+.pcoded-container {
+    background: #f2f7fb;
+}
+
+.page-container {
+    background: transparent;
+    display: block;
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+    padding: 25px;
+    margin: 0;
+    position: relative;
+    top: 57px;
+}
+
+.chat-card {
+    height: 80vh;
+    overflow: auto;
+}
+
+.chat-card .card-block {
+    margin-bottom: 50px;
+    height: 60vh;
+    overflow: auto;
+}
+
+.chat-card .right-icon-control {
+    bottom: 0;
+    padding: 0 20px;
+    position: absolute;
+}
+
+a.active {
+    color: #4099ff;
+}
