@@ -44,6 +44,7 @@ Define namespaces in directory  ```socketplay/namespaces```
 
 Define rooms in directory  ```socketplay/rooms```
   
+Note: webconsole page implementation is in progress.
 ## Sources
 [sanic](https://sanic.readthedocs.io/en/latest/)
 
