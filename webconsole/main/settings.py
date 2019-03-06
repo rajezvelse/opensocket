@@ -1,7 +1,7 @@
 import os
 
 SETTINGS = {
-    "SERVER_HOST": "127.0.0.1",
+    "SERVER_HOST": "0.0.0.0",
     "SERVER_PORT": 8000,
     "DATABASE_URL": "sqlite:///data/db/opensocket.db"
 }

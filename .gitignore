@@ -3,4 +3,5 @@
 references
 webconsole/ui/templates/theme.html
 webconsole/migrations/versions/*
+!webconsole/migrations/versions
 Dockerfile

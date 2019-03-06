@@ -21,12 +21,35 @@ Open http://localhost:8000 to view webconsole
 Note:
 You may need to install ```mysql/sqlite3``` server depends on database that you are using.
 
-### Sources
+## Getting started with docker
+Pull docker image
+```
+docker pull rajez/opensocket:beta
+```
+
+Run
+```
+docker run -dti -p 8000:8000 --name opensocket rajez/opensocket:beta
+```
+
+Open http://localhost:8000 to view webconsole
+
+## Workup
+
+You may modify socket authentication in  ```socketplay/connection/authentication.py```
+
+Define websocket event in directory ```socketplay/events```
+
+Define namespaces in directory  ```socketplay/namespaces```
+
+Define rooms in directory  ```socketplay/rooms```
+  
+## Sources
 [sanic](https://sanic.readthedocs.io/en/latest/)
 
 [python-socketio](https://python-socketio.readthedocs.io/en/latest/)
 
-### References
+## References
 
 [python-sokcetio](https://github.com/miguelgrinberg/python-socketio) - Example implementations of python-socketio for various deployment methods
 
